@@ -1,4 +1,4 @@
-title: Blog
+title: Programmer's Blog
 subtitle: ''
 description: ''
 keywords: null
@@ -59,9 +59,10 @@ include: null
 exclude: null
 ignore: null
 theme: icarus
-
 deploy:
   type: git
   repo: https://github.com/kelvincer/kelvin-blog.git
   branch: gh-pages
+plugins:
+  - hexo-tag-video
 
